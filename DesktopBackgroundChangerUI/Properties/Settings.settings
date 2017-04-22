@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DesktopBackgroundChangerUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NG_Default" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://photography.nationalgeographic.com/photography/photo-of-the-day/</Value>
+    </Setting>
+    <Setting Name="NG_Animals" Type="System.String" Scope="User">
+      <Value Profile="(Default)">animals/</Value>
+    </Setting>
+    <Setting Name="NG_Adventure" Type="System.String" Scope="User">
+      <Value Profile="(Default)">adventure-exploration/</Value>
+    </Setting>
+    <Setting Name="NG_History" Type="System.String" Scope="User">
+      <Value Profile="(Default)">history/</Value>
+    </Setting>
+    <Setting Name="NG_BlackAndWhite" Type="System.String" Scope="User">
+      <Value Profile="(Default)">black-white/</Value>
+    </Setting>
+    <Setting Name="NG_Landscapes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">landscapes/</Value>
+    </Setting>
+    <Setting Name="NG_Nature" Type="System.String" Scope="User">
+      <Value Profile="(Default)">nature-weather/</Value>
+    </Setting>
+    <Setting Name="NG_People" Type="System.String" Scope="User">
+      <Value Profile="(Default)">people-culture/</Value>
+    </Setting>
+    <Setting Name="NG_Science" Type="System.String" Scope="User">
+      <Value Profile="(Default)">science-space/</Value>
+    </Setting>
+    <Setting Name="NG_Travel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">travel/</Value>
+    </Setting>
+    <Setting Name="NG_Underwater" Type="System.String" Scope="User">
+      <Value Profile="(Default)">underwater/</Value>
+    </Setting>
+    <Setting Name="ApplicationWebsite" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://desktopchanger.codeplex.com/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

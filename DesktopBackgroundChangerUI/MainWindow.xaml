@@ -1,0 +1,28 @@
+﻿<Window x:Class="DesktopBackgroundChangerUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WPFLocalizeExtension="clr-namespace:WPFLocalizeExtension.Extensions;assembly=WPFLocalizeExtension"
+        xmlns:tb="http://www.hardcodet.net/taskbar" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize"
+        Title="Desktop Background Changer" Height="215" Width="525">
+    <Window.Resources>
+        <ResourceDictionary Source="WPF Themes\ShinyRed.xaml"/>
+    </Window.Resources>
+    <Canvas Height="304">
+        <Image Height="150" HorizontalAlignment="Left" Margin="21,12,0,0" 
+               Name="imageDesktopBackground" Stretch="Fill" VerticalAlignment="Top" Width="200" Source="Images\BuffaloRace.jpg"/>
+        <tb:TaskbarIcon x:Name="NotifyIcon"
+                    Visibility="Visible"
+                    IconSource="Resources\NationalGeographic.ico"
+                    ToolTipText="Desktop Background Changer">
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="{WPFLocalizeExtension:LocText DesktopBackgroundChangerUI:Resources:MenuItemUpdatePhotoOfTheDay}" Click="MenuItemUpdatePhotoOfTheDay_Click"/>
+                    <MenuItem Header="{WPFLocalizeExtension:LocText DesktopBackgroundChangerUI:Resources:MenuItemAbout}" Click="MenuItemAbout_Click"/>
+                    <MenuItem Header="{WPFLocalizeExtension:LocText DesktopBackgroundChangerUI:Resources:MenuItemExit}" Click="MenuItemExit_Click"/>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+        <TextBlock Canvas.Left="251" Canvas.Top="12" Height="150" Name="textBlockCaption" Width="227" TextWrapping="Wrap" TextTrimming="WordEllipsis"
+                   Text="Kambala is a simple sport played in parts of Karnataka, India. The track used for Kambala is a paddy field filled with slush. It is a race of buffaloes controlled by a whip-lashing farmer. This is a shot taken at Vandar village near Mangalore."/>
+    </Canvas>
+</Window>
